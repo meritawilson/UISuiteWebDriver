@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>webdrivermgr</groupId>
+  <artifactId>webdrivermgr</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>4.0.0-alpha-6</version>
+  	</dependency>
+  	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.13</version>
+	    <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+	<dependency>
+	    <groupId>io.github.bonigarcia</groupId>
+	    <artifactId>webdrivermanager</artifactId>
+	    <version>4.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	    <version>4.1.2</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20140107</version>
+	</dependency>
+    <dependency>
+        <groupId>net.lightbody.bmp</groupId>
+        <artifactId>browsermob-core</artifactId>
+        <version>2.1.4</version>
+        <scope>test</scope>
+    </dependency>
+     <!-- https://mvnrepository.com/artifact/com.google.guava/guava 
+     wait conditions-->
+	<dependency>
+	    <groupId>com.google.guava</groupId>
+	    <artifactId>guava</artifactId>
+	    <version>21.0</version>
+	</dependency>
+	<dependency> 
+		<groupId>com.opencsv</groupId> 
+		<artifactId>opencsv</artifactId> 
+		<version>4.1</version> 
+	</dependency> 
+	<!-- push data to elk -->
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.5.12</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+	<dependency>
+	    <groupId>com.jayway.jsonpath</groupId>
+	    <artifactId>json-path</artifactId>
+	    <version>2.4.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>io.tus.java.client</groupId>
+	    <artifactId>tus-java-client</artifactId>
+	    <version>0.4.0</version>
+	    <type>pom</type>
+	</dependency>
+	<dependency>
+		<groupId>io.tus.java.client</groupId>
+		<artifactId>tus-java-client</artifactId>
+		<version>0.4.0-pre1</version>
+	</dependency>
+<!-- Thanks for using https://jar-download.com -->
+	
+  </dependencies>
+</project>
